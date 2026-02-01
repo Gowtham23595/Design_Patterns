@@ -12,7 +12,7 @@ class RealSubject : public Subject{
     RealSubject() = default;
     void request() override{
         cout << "Using the actual Service\n";
-    }9
+    }
 };
 
 class Proxy : public Subject{
