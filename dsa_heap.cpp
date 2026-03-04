@@ -37,7 +37,7 @@ public:
         int left = 2 * index + 1;
         int right = 2 * index + 2;
         count = count - 1;
-        heap[index] = heap[count];
+        heap[index] = heap[count]; 
         heap[count] = 0;
         while(left < count && (heap[left] < heap[index] || heap[right] < heap[index])){
             if(heap[left] < heap[right]){
